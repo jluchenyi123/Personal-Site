@@ -2,33 +2,48 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Master's student in Automotive Engineering at Jilin University
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Jilin University</p>
+    <p>Jilin, China</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Yi Chen, a master's student in the College of Automotive Engineering at Jilin University. I earned my B.S. there in June 2026. My research interests include large language model uncertainty, embodied AI, computer vision, and intelligent vehicle technologies.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+## Education
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+- **Master's, Automotive Engineering**, Jilin University, September 2026 – June 2029 (expected)
+- **B.S., Automotive Engineering**, Jilin University, September 2022 – June 2026
+
+## Research experience
+
+- **HKUST (Guangzhou), August 2025 – April 2026.** Working with Prof. Sihong Xie, I studied uncertainty and internal knowledge flow in large language models, as well as scene graph generation. A paper on uncertainty in question answering was accepted for an oral presentation at ICML 2026; a paper on scene graph generation was accepted at ECCV 2026.
+- **Tsinghua University, Institute for AI Industry Research, December 2024 – April 2025.** Working with Prof. Hao Zhao, I developed YOTO, a fast and lightweight model for task-oriented detection based on YOLO. It uses distillation and text prompts to make use of pretrained object detectors while achieving mean average precision close to the state of the art.
+- **State Key Laboratory of Automotive Simulation and Control, October 2023 – December 2024.** Working with Prof. Rui Zhao and Prof. Fei Gao, I built a driving-behavior dataset and used LoRA to train a driver-intent model. I also worked on a reinforcement-learning framework for centimeter-level path tracking and passenger comfort. These projects resulted in first- and second-authored papers published in *Sensors*.
+
+## Skills
+
+Python, C, PyTorch, Linux, and LaTeX.
+
+## Honors and awards
+
+- National Outstanding Award, Zhou Peiyuan Mechanics Competition (2025)
+- Third Place in Jilin Province, 26th China Robot and Artificial Intelligence Competition (2024)
+- Third-Class Scholarship (2024 and 2025)
+- Jilin University Academic and Technological Award (2025)
+
+For more details, see my [CV]({{ '/cv/' | relative_url }}) and [GitHub](https://github.com/jluchenyi123). For research inquiries, email me at [chenyi1522@mails.jlu.edu.cn](mailto:chenyi1522@mails.jlu.edu.cn).
